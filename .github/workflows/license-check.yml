@@ -12,6 +12,8 @@ jobs:
       # Run `git checkout`
       - uses: actions/checkout@v3
       - uses: maximilianpilz/file-header-check@v1
+        env:
+          PYTHONUNBUFFERED: "1"
         with:
           config: 'license-check/license-config'
           config-encoding: 'utf-8'
