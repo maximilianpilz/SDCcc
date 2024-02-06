@@ -17,3 +17,4 @@ jobs:
         with:
           config: 'license-check/license-config'
           config-encoding: 'utf-8'
+          log-level: 'DEBUG'
