@@ -10,6 +10,7 @@ plugins {
 val javaVersion = property("javaVersion").toString()
 
 dependencies {
+    api(enforcedPlatform("com.draeger.medical:versions-platform:1.0-SNAPSHOT"))
     api(libs.org.junit.jupiter.junit.jupiter.api)
     api(libs.org.junit.jupiter.junit.jupiter.engine)
     api(libs.org.junit.platform.junit.platform.launcher)
