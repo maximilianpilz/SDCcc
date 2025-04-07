@@ -7,6 +7,10 @@ plugins {
     id("com.draeger.medical.kotlin-conventions")
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
 val javaVersion = property("javaVersion").toString()
 
 dependencies {
