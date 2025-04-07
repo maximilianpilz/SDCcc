@@ -14,6 +14,5 @@ include(":biceps-model")
 include(":dpws-model")
 include(":sdccc")
 
-include("versions-platform")
 
-project(":versions-platform").projectDir = file("./versions-platform")
+includeBuild("versions-platform")
