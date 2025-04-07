@@ -28,6 +28,7 @@ gradlePlugin {
 }
 
 dependencies {
+    api(enforcedPlatform("com.draeger.medical:versions-platform:1.0-SNAPSHOT"))
     implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
     implementation(libs.com.github.jk1.license.report)
     implementation(libs.gradleplugins.spotbugs)
