@@ -13,7 +13,7 @@ rootProject.name = "sdccc_parent"
 include(":biceps-model")
 include(":dpws-model")
 include(":sdccc")
-//
-//include("versions-platform")
-//
-//project(":versions-platform").projectDir = file("./versions-platform")
+
+include("versions-platform")
+
+project(":versions-platform").projectDir = file("./versions-platform")
